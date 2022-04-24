@@ -1,0 +1,4 @@
+@mixin opacityText($c, $op) {
+  color: $c;
+  opacity: $op;
+}
