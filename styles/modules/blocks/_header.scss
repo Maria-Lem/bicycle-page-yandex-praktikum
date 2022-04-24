@@ -1,0 +1,23 @@
+.header {
+  @include desktopWidth;
+
+  display: flex;
+  // align-items: center;
+  justify-content: flex-end;
+  padding: 28px 0;
+
+  &__nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    list-style-type: none;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1.29;
+    font-weight: 500;
+  }
+}

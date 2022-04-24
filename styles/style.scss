@@ -1,2 +1,8 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
+@import "../vendor/normalize";
+@import "../vendor/fonts/fonts";
+@import "./modules/variables";
+@import "./modules/mixins";
+@import "./modules/blocks/page";
+@import "./modules/blocks/header";
+@import "./modules/blocks/link";
+// @import "";
