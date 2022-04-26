@@ -1,0 +1,7 @@
+.paragraph {
+  margin: 0 0 53px;
+  width: 460px;
+  font-size: 18px;
+  line-height: 1.56;
+  @include opacityText(#222222, .7);
+}

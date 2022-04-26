@@ -1,0 +1,56 @@
+.lead {
+  display: flex;
+  justify-content: space-between;
+  @include desktopWidth(1320px);
+  margin: 0 0 0 auto;
+  padding-bottom: 120px;
+
+  &__content {
+    position: relative;
+  }
+
+  &__title {
+    margin: 63px 0 43px;
+  }
+
+  &__button {
+    margin-bottom: 169px;
+  }
+
+  &__caption {
+    position: relative;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+
+    &::after {
+      content: '';
+      position: absolute;
+      margin: 9px 0 0 30px;
+      width: 132px;
+      height: 2px;
+      background: #D7D4D4;
+    }
+  }
+
+  &__bicycle-block {
+    position: absolute;
+    top: 371px;
+    right: -490px;
+    height: 430px;
+  }
+
+  &__bicycle {
+    position: sticky;
+    top: 0;
+    padding: 20px 50px;
+    background: $bgVeryLight;
+    border-radius: 20px;
+    filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  }
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+  }
+}

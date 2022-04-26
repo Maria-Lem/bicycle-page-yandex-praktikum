@@ -3,8 +3,8 @@
   opacity: $op;
 }
 
-@mixin desktopWidth {
-  max-width: 1200px;
+@mixin desktopWidth($w) {
+  max-width: $w;
   width: 100%;
   margin: 0 auto;
 }

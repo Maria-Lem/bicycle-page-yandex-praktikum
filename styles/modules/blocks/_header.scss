@@ -1,10 +1,9 @@
 .header {
-  @include desktopWidth;
+  @include desktopWidth(1200px);
 
   display: flex;
-  // align-items: center;
   justify-content: flex-end;
-  padding: 28px 0;
+  padding: 28px 0 48px;
 
   &__nav-links {
     display: flex;
