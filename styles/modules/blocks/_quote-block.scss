@@ -1,0 +1,36 @@
+.quote-block {
+  display: flex;
+  justify-content: space-between;
+  @include desktopWidth(1200px);
+  padding-bottom: 120px;
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__quote {
+    margin: 0;
+    width: 470px;
+    font-size: 34px;
+    line-height: 1.29;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: $black;
+  }
+
+  &__author {
+    margin: 0 0 6px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  &__occupation {
+    margin: 0 0 6px;
+    font-size: 16px;
+    line-height: 1.75;
+    @include opacityText(#222, .7)
+  }
+}

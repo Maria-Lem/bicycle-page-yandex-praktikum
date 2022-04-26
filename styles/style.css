@@ -498,4 +498,44 @@ template {
 .button:hover {
   background-position: left bottom;
 }
+
+.quote-block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.quote-block__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.quote-block__quote {
+  margin: 0;
+  width: 470px;
+  font-size: 34px;
+  line-height: 1.29;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #151515;
+}
+
+.quote-block__author {
+  margin: 0 0 6px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.quote-block__occupation {
+  margin: 0 0 6px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #222;
+  opacity: 0.7;
+}
 /*# sourceMappingURL=style.css.map */
