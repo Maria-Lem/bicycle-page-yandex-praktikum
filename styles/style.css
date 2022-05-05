@@ -594,10 +594,14 @@ template {
 
 .slide__title {
   margin-bottom: 43px;
+  transition: .4s;
+  opacity: 0;
 }
 
 .slide__paragraph {
   margin: 0 0 83px;
+  transition: .4s;
+  opacity: 0;
 }
 
 .slide__image-container {
@@ -615,6 +619,8 @@ template {
   height: 40px;
   background: #24B47E;
   transform-origin: bottom left;
+  transition: .4s;
+  opacity: 0;
 }
 
 .slide__icon::after {
@@ -633,5 +639,21 @@ template {
 
 .slide__icon-img {
   z-index: 2;
+}
+
+.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%);
+}
+
+.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%);
+}
+
+.active {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

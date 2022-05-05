@@ -7,10 +7,14 @@
 
   &__title {
     margin-bottom: 43px;
+    transition: .4s;
+    opacity: 0;
   }
 
   &__paragraph {
     margin: 0 0 83px;
+    transition: .4s;
+    opacity: 0;
   }
 
   &__image-container {
@@ -28,6 +32,8 @@
     height: 40px;
     background: $green;
     transform-origin: bottom left;
+    transition: .4s;
+    opacity: 0;
 
     &::after {
       content: '';
@@ -41,7 +47,6 @@
       transform-origin: bottom left;
       transform: skew(-28deg, 0deg);
       border-top-right-radius: 7px;
-      // z-index: 2;
     }
   }
 
