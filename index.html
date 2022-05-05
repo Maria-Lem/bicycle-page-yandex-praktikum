@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="./styles/style.css">
   <title>Шоссе, ТТ и Грэвел</title>
 </head>
+
 <body class="page">
 
   <header class="header">
@@ -18,26 +20,30 @@
       </ul>
     </nav>
   </header>
-  
+
 
   <main class="main">
     <section class="lead">
       <div class="lead__content">
         <h1 class="lead__title title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-        <p class="lead__paragraph paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+        <p class="lead__paragraph paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+          маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
         <button class="lead__button button">Подробнее</button>
         <p class="lead__caption">Cannondale Systemsix</p>
         <div class="lead__bicycle-block">
           <img src="./images/lead-bicycle.png" alt="Велосипед модель Cannondale Systemsix" class="lead__bicycle">
         </div>
       </div>
-      <img src="./images/lead-image.jpg" alt="Фотография леса, грунтовой дороги, по которой едет велосипедист" class="lead__image">
+      <img src="./images/lead-image.jpg" alt="Фотография леса, грунтовой дороги, по которой едет велосипедист"
+        class="lead__image">
     </section>
 
     <section class="quote-block">
-      <img src="./images/quote-image.jpg" alt="Фотография природы, асфальтная дорога, по которой едет велосипедист" class="quote-block__image">
+      <img src="./images/quote-image.jpg" alt="Фотография природы, асфальтная дорога, по которой едет велосипедист"
+        class="quote-block__image">
       <div class="quote-block__content">
-        <p class="quote-block__quote">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;</p>
+        <p class="quote-block__quote">&laquo;Катайся много или мало, долго или коротко, как хочешь - но катайся&raquo;
+        </p>
         <div class="block-quote__caption">
           <p class="quote-block__author">Эдди Меркс</p>
           <p class="quote-block__occupation">Велогонщик</p>
@@ -45,7 +51,55 @@
       </div>
     </section>
 
+    <section class="road-surface" id="road-surface">
+      <div class="slider">
+        <div class="slider__slides">
+          <div class="slide">
+            <h2 class="slide__title title">Шоссе</h2>
+            <p class="slide__paragraph paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
+              будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
+            </p>
+            <div class="slide__image-container">
+              <img src="./images/slider-image-1.jpg" alt="Фото асфальтной дороги в гористой местности"
+                class="slide__image">
+              <div class="slide__icon">
+                <img src="./images/icons/slider-logo-1.svg" alt="" class="slide__icon-img">
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <h2 class="slide__title title">Грэвел</h2>
+            <p class="slide__paragraph paragraph">Грэвел похож на шоссейный велосипед, но конструкция рамы немного
+              отличается, и на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.</p>
+            <div class="slide__image-container">
+              <img src="./images/slider-image-2.jpg" alt="Фото грунтовой дороги в лесу" class="slide__image">
+              <div class="slide__icon">
+                <img src="./images/icons/slider-logo-2.svg" alt="" class="slide__icon-img">
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <h2 class="slide__title title">ТТ</h2>
+            <p class="slide__paragraph paragraph">ТТ — это велосипед для триатлона или раздельного старта, гооняют на
+              таком велике только по равнинному асфальту, велик очень быстрые и аэродинамичный.</p>
+            <div class="slide__image-container">
+              <img src="./images/slider-image-3.jpg" alt="Фото асфальтной дороги в равнинной местности"
+                class="slide__image">
+              <div class="slide__icon">
+                <img src="./images/icons/slider-logo-3.svg" alt="" class="slide__icon-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__nav">
+          <div class="slider__nav-button slider__nav-button_type_prev button1"></div>
+          <div class="slider__nav-button slider__nav-button_type_next button1"></div>
+        </div>
+      </div>
+    </section>
+
   </main>
   <script src="./scripts/script.js"></script>
 </body>
+
 </html>
