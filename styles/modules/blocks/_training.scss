@@ -1,0 +1,26 @@
+.training {
+
+  &__title {
+    margin-bottom: 47px;
+  }
+
+  &__paragraph {
+    margin-bottom: 182px;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+  }
+
+  &__link {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.56;
+
+    &:hover {
+      @include opacityText(#151515, .75);
+    }
+  }
+}
